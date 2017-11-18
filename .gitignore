@@ -1,0 +1,5 @@
+.DS_Store
+.bundle
+*.tar.gz
+vendor
+ruby-2.2.2-linux-x86_64

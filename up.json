@@ -1,0 +1,15 @@
+{
+  "name": "up-sinatra-ruby222-template",
+  "hooks": {
+    "build": "bundle exec rake up:package"
+  },
+  "proxy": {
+    "command": "./up-init-server.sh"
+  },
+  "lambda": {
+    "memory": 1024
+  },
+  "environment": {
+    "foo": "bar"
+  }
+}
