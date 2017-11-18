@@ -2,7 +2,9 @@
 
 This is the `ruby` `Sinatra` `web framework`, running a simple endpoint on `Amazon Lambda`.
 
-We are using [Up](https://github.com/apex/up/) to deploy the application to Amazon Lambda. Offically Ruby runtime isn't supported but I cross compiled it to the Lambda environment and packaged Ruby using [Traveling Ruby](https://github.com/phusion/traveling-ruby). 
+I achieved *thousands of requests* per second in my `benchmarks`. It is `faster` and `cheaper` than `Heroku`.
+
+We are using [Up](https://github.com/apex/up/) to deploy the application to `Amazon Lambda`. Offically `Ruby` runtime isn't supported but I `cross compiled` it to the `Lambda environment` and packaged `Ruby` using [Traveling Ruby](https://github.com/phusion/traveling-ruby). 
 
 With this approach you can achieve near infinite scalability and low costs.
 
