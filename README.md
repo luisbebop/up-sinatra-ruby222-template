@@ -12,6 +12,7 @@ With this approach you can achieve near infinite scalability and low costs.
 
 ```shell
 git clone https://github.com/luisbebop/up-sinatra-ruby222-template.git
+cd up-sinatra-ruby222-template
 up
 open `up url`
 ```
