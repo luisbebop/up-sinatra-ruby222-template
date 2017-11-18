@@ -1,13 +1,17 @@
 # 🚀 👀 Near infinitely scalable Sinatra (ruby) endpoint.
 
-I'm using [Up framework](https://github.com/apex/up/) to deploy this application to Amazon Lambda. Offically Ruby runtime isn't supported but I cross compiled the runtime to the Lambda environment and packaged Ruby using [Traveling Ruby](https://github.com/phusion/traveling-ruby). With this approach you can achieve near infinite scalability and low costs.
+This is the `ruby` `Sinatra` `web framework`, running a simple endpoint on `Amazon Lambda`.
+
+We are using [Up](https://github.com/apex/up/) to deploy the application to Amazon Lambda. Offically Ruby runtime isn't supported but I cross compiled it to the Lambda environment and packaged Ruby using [Traveling Ruby](https://github.com/phusion/traveling-ruby). 
+
+With this approach you can achieve near infinite scalability and low costs.
 
 ## Deploy
 
 ```shell
 git clone https://github.com/luisbebop/up-sinatra-ruby222-template.git
 up
-up url
+open `up url`
 ```
 
 You need to have [Up installed](http://up.docs.apex.sh/#installation). If you don't have it installed follow the bellow instructions:
